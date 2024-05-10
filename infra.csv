@@ -1,0 +1,5 @@
+vpc;admin;10.0.0.0/16
+vpc;client_1;10.1.0.0/20
+bastion;bastion_1;admin#10.0.2.0/24#toto#bastion.sh
+serveur_web;serveur_web_1;client_1#10.1.0.0/24#toto#serveur_web.sh
+peering;peering_client_1;admin#client_1#10.0.0.0/16
